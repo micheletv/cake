@@ -1,0 +1,984 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-10-24 10:39-0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AddressesController.php:37;71;98
+msgid "Invalid address"
+msgstr "Endereço Inválido!"
+
+#: Controller/AddressesController.php:52;75
+msgid "The address has been saved."
+msgstr "O endereço foi salvo!"
+
+#: Controller/AddressesController.php:55;78
+msgid "The address could not be saved. Please, try again."
+msgstr "O endereço não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/AddressesController.php:102
+msgid "The address has been deleted."
+msgstr "O endereço foi excluído!"
+
+#: Controller/AddressesController.php:104
+msgid "The address could not be deleted. Please, try again."
+msgstr "O endereço não pôde ser excluído. Por favor, tente novamente."
+
+#: Controller/CategoriesController.php:37;69;94
+msgid "Invalid category"
+msgstr "Categoria Inválida!"
+
+#: Controller/CategoriesController.php:52;73
+msgid "The category has been saved."
+msgstr "A categoria foi salva"
+
+#: Controller/CategoriesController.php:55;76
+msgid "The category could not be saved. Please, try again."
+msgstr "A categoria não pôde ser salva. Por favor, tente novamente."
+
+#: Controller/CategoriesController.php:98
+msgid "The category has been deleted."
+msgstr "A categoria foi deletada!"
+
+#: Controller/CategoriesController.php:100
+msgid "The category could not be deleted. Please, try again."
+msgstr "A categoria não pôde ser deletada. Por favor, tente novamente."
+
+#: Controller/PhonesController.php:37;71;98
+msgid "Invalid phone"
+msgstr "Telefone Inválido!"
+
+#: Controller/PhonesController.php:52;75
+msgid "The phone has been saved."
+msgstr "O telefone foi salvo!"
+
+#: Controller/PhonesController.php:55;78
+msgid "The phone could not be saved. Please, try again."
+msgstr "O telefone não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/PhonesController.php:102
+msgid "The phone has been deleted."
+msgstr "O telefone foi deletado!"
+
+#: Controller/PhonesController.php:104
+msgid "The phone could not be deleted. Please, try again."
+msgstr "O telefone não pôde ser deletado. Por favor, tente novamente."
+
+#: Controller/ProductsController.php:37;72;100
+msgid "Invalid product"
+msgstr "Produto Inválido!"
+
+#: Controller/ProductsController.php:52;76
+msgid "The product has been saved."
+msgstr "O produto foi salvo!"
+
+#: Controller/ProductsController.php:55;79
+msgid "The product could not be saved. Please, try again."
+msgstr "O produto não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/ProductsController.php:104
+msgid "The product has been deleted."
+msgstr "O produto foi deletado!"
+
+#: Controller/ProductsController.php:106
+msgid "The product could not be deleted. Please, try again."
+msgstr "O produto não pôde ser deletado. Por favor, tente novamente."
+
+#: Controller/SalesController.php:37;71;98
+msgid "Invalid sale"
+msgstr "Venda inválida!"
+
+#: Controller/SalesController.php:52;75
+msgid "The sale has been saved."
+msgstr "A venda foi salva."
+
+#: Controller/SalesController.php:55;78
+msgid "The sale could not be saved. Please, try again."
+msgstr "A venda não pôde ser salva. Por favor, tente novamente."
+
+#: Controller/SalesController.php:102
+msgid "The sale has been deleted."
+msgstr "A venda foi deletada."
+
+#: Controller/SalesController.php:104
+msgid "The sale could not be deleted. Please, try again."
+msgstr "A venda não pôde ser deletada. Por favor, tente novamente."
+
+#: Controller/SalesProductsController.php:37;72;100
+msgid "Invalid sales product"
+msgstr "Venda inválida!"
+
+#: Controller/SalesProductsController.php:52;76
+msgid "The sales product has been saved."
+msgstr "A venda foi salva."
+
+#: Controller/SalesProductsController.php:55;79
+msgid "The sales product could not be saved. Please, try again."
+msgstr "A venda não pôde ser salva. Por favor, tente novamente."
+
+#: Controller/SalesProductsController.php:104
+msgid "The sales product has been deleted."
+msgstr "A venda foi deletada!"
+
+#: Controller/SalesProductsController.php:106
+msgid "The sales product could not be deleted. Please, try again."
+msgstr "A venda não pôde ser salva. Por favor, tente novamente."
+
+#: Controller/UsersController.php:37;69;94
+msgid "Invalid user"
+msgstr "Usuário Inválido!"
+
+#: Controller/UsersController.php:52;73
+msgid "The user has been saved."
+msgstr "Usuário salvo com sucesso!"
+
+#: Controller/UsersController.php:55;76
+msgid "The user could not be saved. Please, try again."
+msgstr "O usuário não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/UsersController.php:98
+msgid "The user has been deleted."
+msgstr "O usuário foi deletado."
+
+#: Controller/UsersController.php:100
+msgid "The user could not be deleted. Please, try again."
+msgstr "O usuário não pôde ser deletado. Por favor, tente novamente."
+
+#: View/Addresses/add.ctp:4
+msgid "Add Address"
+msgstr "Adicionar endereço"
+
+#: View/Addresses/add.ctp:14
+#: View/Addresses/edit.ctp:14
+#: View/Categories/add.ctp:9
+#: View/Categories/edit.ctp:10
+#: View/Phones/add.ctp:10
+#: View/Phones/edit.ctp:10
+#: View/Products/add.ctp:14
+#: View/Products/edit.ctp:15
+#: View/Sales/add.ctp:9
+#: View/Sales/edit.ctp:10
+#: View/SalesProducts/add.ctp:10
+#: View/SalesProducts/edit.ctp:10
+#: View/Users/add.ctp:12
+#: View/Users/edit.ctp:13
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Addresses/add.ctp:17
+#: View/Addresses/edit.ctp:17
+#: View/Addresses/index.ctp:12;50
+#: View/Addresses/view.ctp:39
+#: View/Categories/add.ctp:12
+#: View/Categories/edit.ctp:13
+#: View/Categories/index.ctp:8;40
+#: View/Categories/view.ctp:17;38
+#: View/Phones/add.ctp:13
+#: View/Phones/edit.ctp:13
+#: View/Phones/index.ctp:8;42
+#: View/Phones/view.ctp:17
+#: View/Products/add.ctp:17
+#: View/Products/edit.ctp:18
+#: View/Products/index.ctp:12;50
+#: View/Products/view.ctp:37;56
+#: View/Sales/add.ctp:12
+#: View/Sales/edit.ctp:13
+#: View/Sales/index.ctp:8;40
+#: View/Sales/view.ctp:17;38
+#: View/SalesProducts/add.ctp:13
+#: View/SalesProducts/edit.ctp:13
+#: View/SalesProducts/index.ctp:8;44
+#: View/SalesProducts/view.ctp:17
+#: View/Users/add.ctp:15
+#: View/Users/edit.ctp:16
+#: View/Users/index.ctp:11;46
+#: View/Users/view.ctp:32;54;86
+msgid "Actions"
+msgstr "Ações"
+
+#: View/Addresses/add.ctp:20
+#: View/Addresses/edit.ctp:21
+#: View/Addresses/view.ctp:43
+#: View/Users/add.ctp:19
+#: View/Users/edit.ctp:21
+#: View/Users/index.ctp:49
+#: View/Users/view.ctp:38
+msgid "List Addresses"
+msgstr "Lista de Endereços"
+
+#: View/Addresses/add.ctp:21
+#: View/Addresses/edit.ctp:22
+#: View/Addresses/index.ctp:53
+#: View/Addresses/view.ctp:45
+#: View/Phones/add.ctp:17
+#: View/Phones/edit.ctp:18
+#: View/Phones/index.ctp:45
+#: View/Phones/view.ctp:23
+#: View/Users/add.ctp:18
+#: View/Users/edit.ctp:20
+#: View/Users/view.ctp:36
+msgid "List Users"
+msgstr "Lista de Usuários"
+
+#: View/Addresses/add.ctp:22
+#: View/Addresses/edit.ctp:23
+#: View/Addresses/index.ctp:54
+#: View/Addresses/view.ctp:46
+#: View/Phones/add.ctp:18
+#: View/Phones/edit.ctp:19
+#: View/Phones/index.ctp:46
+#: View/Phones/view.ctp:24
+#: View/Users/index.ctp:48
+#: View/Users/view.ctp:37
+msgid "New User"
+msgstr "Novo usuário"
+
+#: View/Addresses/edit.ctp:4
+#: View/Addresses/view.ctp:41
+msgid "Edit Address"
+msgstr "Editar endereço"
+
+#: View/Addresses/edit.ctp:20
+#: View/Addresses/index.ctp:29
+#: View/Categories/edit.ctp:16
+#: View/Categories/index.ctp:19
+#: View/Categories/view.ctp:51
+#: View/Phones/edit.ctp:16
+#: View/Phones/index.ctp:21
+#: View/Products/edit.ctp:21
+#: View/Products/index.ctp:29
+#: View/Products/view.ctp:65
+#: View/Sales/edit.ctp:16
+#: View/Sales/index.ctp:19
+#: View/Sales/view.ctp:51
+#: View/SalesProducts/edit.ctp:16
+#: View/SalesProducts/index.ctp:23
+#: View/Users/edit.ctp:19
+#: View/Users/index.ctp:25
+#: View/Users/view.ctp:66;95
+msgid "Delete"
+msgstr "Deletar"
+
+#: View/Addresses/edit.ctp:20
+#: View/Addresses/index.ctp:29
+#: View/Addresses/view.ctp:42
+#: View/Categories/edit.ctp:16
+#: View/Categories/index.ctp:19
+#: View/Categories/view.ctp:20;51
+#: View/Phones/edit.ctp:16
+#: View/Phones/index.ctp:21
+#: View/Phones/view.ctp:20
+#: View/Products/edit.ctp:21
+#: View/Products/index.ctp:29
+#: View/Products/view.ctp:40;65
+#: View/Sales/edit.ctp:16
+#: View/Sales/index.ctp:19
+#: View/Sales/view.ctp:20;51
+#: View/SalesProducts/edit.ctp:16
+#: View/SalesProducts/index.ctp:23
+#: View/SalesProducts/view.ctp:20
+#: View/Users/edit.ctp:19
+#: View/Users/index.ctp:25
+#: View/Users/view.ctp:35;66;95
+msgid "Are you sure you want to delete # %s?"
+msgstr "Tem certeza de que deseja apagar # %s"
+
+#: View/Addresses/index.ctp:2
+msgid "Addresses"
+msgstr "Endereços"
+
+#: View/Addresses/index.ctp:27
+#: View/Categories/index.ctp:17
+#: View/Categories/view.ctp:49
+#: View/Phones/index.ctp:19
+#: View/Products/index.ctp:27
+#: View/Products/view.ctp:63
+#: View/Sales/index.ctp:17
+#: View/Sales/view.ctp:49
+#: View/SalesProducts/index.ctp:21
+#: View/Users/index.ctp:23
+#: View/Users/view.ctp:64;93
+msgid "View"
+msgstr "Ver"
+
+#: View/Addresses/index.ctp:28
+#: View/Categories/index.ctp:18
+#: View/Categories/view.ctp:50
+#: View/Phones/index.ctp:20
+#: View/Products/index.ctp:28
+#: View/Products/view.ctp:64
+#: View/Sales/index.ctp:18
+#: View/Sales/view.ctp:50
+#: View/SalesProducts/index.ctp:22
+#: View/Users/index.ctp:24
+#: View/Users/view.ctp:65;94
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Addresses/index.ctp:38
+#: View/Categories/index.ctp:28
+#: View/Phones/index.ctp:30
+#: View/Products/index.ctp:38
+#: View/Sales/index.ctp:28
+#: View/SalesProducts/index.ctp:32
+#: View/Users/index.ctp:34
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Página {:page} de {:pages}, mostrando {:current} registos de saída {:count} total, começando no registro {:start}, fim em {:end}"
+
+#: View/Addresses/index.ctp:43
+#: View/Categories/index.ctp:33
+#: View/Phones/index.ctp:35
+#: View/Products/index.ctp:43
+#: View/Sales/index.ctp:33
+#: View/SalesProducts/index.ctp:37
+#: View/Users/index.ctp:39
+msgid "previous"
+msgstr "Anterior"
+
+#: View/Addresses/index.ctp:45
+#: View/Categories/index.ctp:35
+#: View/Phones/index.ctp:37
+#: View/Products/index.ctp:45
+#: View/Sales/index.ctp:35
+#: View/SalesProducts/index.ctp:39
+#: View/Users/index.ctp:41
+msgid "next"
+msgstr "Próximo"
+
+#: View/Addresses/index.ctp:52
+#: View/Addresses/view.ctp:44
+#: View/Users/add.ctp:20
+#: View/Users/edit.ctp:22
+#: View/Users/index.ctp:50
+#: View/Users/view.ctp:39;75
+msgid "New Address"
+msgstr "Novo endereço"
+
+#: View/Addresses/view.ctp:2
+msgid "Address"
+msgstr "Endereço"
+
+#: View/Addresses/view.ctp:4
+#: View/Phones/view.ctp:4
+#: View/Users/view.ctp:2
+msgid "User"
+msgstr "Usuário"
+
+#: View/Addresses/view.ctp:9
+#: View/Users/view.ctp:50
+msgid "Street"
+msgstr "Rua"
+
+#: View/Addresses/view.ctp:14
+#: View/Phones/view.ctp:9
+#: View/Users/view.ctp:51;85
+msgid "Number"
+msgstr "Número"
+
+#: View/Addresses/view.ctp:19
+#: View/Users/view.ctp:52
+msgid "Zip Code"
+msgstr "Cep"
+
+#: View/Addresses/view.ctp:25
+msgid "City"
+msgstr "Cidade"
+
+#: View/Addresses/view.ctp:30
+#: View/Users/view.ctp:53
+msgid "State"
+msgstr "Estado"
+
+#: View/Addresses/view.ctp:42
+msgid "Delete Address"
+msgstr "Deletar endereço"
+
+#: View/Categories/add.ctp:4
+msgid "Add Category"
+msgstr "Adicionar categoria"
+
+#: View/Categories/add.ctp:15
+#: View/Categories/edit.ctp:17
+#: View/Categories/view.ctp:21
+#: View/Products/add.ctp:21
+#: View/Products/edit.ctp:23
+#: View/Products/index.ctp:53
+#: View/Products/view.ctp:43
+msgid "List Categories"
+msgstr "Lista de categorias"
+
+#: View/Categories/add.ctp:16
+#: View/Categories/edit.ctp:18
+#: View/Categories/index.ctp:43
+#: View/Categories/view.ctp:23
+#: View/Products/add.ctp:20
+#: View/Products/edit.ctp:22
+#: View/Products/view.ctp:41
+#: View/Sales/add.ctp:16
+#: View/Sales/edit.ctp:18
+#: View/Sales/index.ctp:43
+#: View/Sales/view.ctp:23
+#: View/SalesProducts/add.ctp:17
+#: View/SalesProducts/edit.ctp:18
+#: View/SalesProducts/index.ctp:47
+#: View/SalesProducts/view.ctp:23
+msgid "List Products"
+msgstr "Lista de produtos"
+
+#: View/Categories/add.ctp:17
+#: View/Categories/edit.ctp:19
+#: View/Categories/index.ctp:44
+#: View/Categories/view.ctp:24;60
+#: View/Products/index.ctp:52
+#: View/Products/view.ctp:42
+#: View/Sales/add.ctp:17
+#: View/Sales/edit.ctp:19
+#: View/Sales/index.ctp:44
+#: View/Sales/view.ctp:24;60
+#: View/SalesProducts/add.ctp:18
+#: View/SalesProducts/edit.ctp:19
+#: View/SalesProducts/index.ctp:48
+#: View/SalesProducts/view.ctp:24
+msgid "New Product"
+msgstr "Novo produto"
+
+#: View/Categories/edit.ctp:4
+#: View/Categories/view.ctp:19
+msgid "Edit Category"
+msgstr "Editar categoria"
+
+#: View/Categories/index.ctp:2
+msgid "Categories"
+msgstr "Categorias"
+
+#: View/Categories/index.ctp:42
+#: View/Categories/view.ctp:22
+#: View/Products/add.ctp:22
+#: View/Products/edit.ctp:24
+#: View/Products/index.ctp:54
+#: View/Products/view.ctp:44
+msgid "New Category"
+msgstr "Nova categoria"
+
+#: View/Categories/view.ctp:2
+#: View/Products/view.ctp:29
+msgid "Category"
+msgstr "Categoria"
+
+#: View/Categories/view.ctp:4;32
+#: View/Products/view.ctp:4;54
+#: View/Sales/view.ctp:4;32
+#: View/Users/view.ctp:4
+msgid "Id"
+msgstr "Código"
+
+#: View/Categories/view.ctp:9;33
+#: View/Products/view.ctp:9
+#: View/Sales/view.ctp:33
+#: View/Users/view.ctp:9
+msgid "Name"
+msgstr "Nome"
+
+#: View/Categories/view.ctp:20
+msgid "Delete Category"
+msgstr "Deletar categoria"
+
+#: View/Categories/view.ctp:28
+#: View/Sales/view.ctp:28
+msgid "Related Products"
+msgstr "Produtos relacionados"
+
+#: View/Categories/view.ctp:34
+#: View/Products/view.ctp:14
+#: View/Sales/view.ctp:34
+msgid "Description"
+msgstr "Descrição"
+
+#: View/Categories/view.ctp:35
+#: View/Products/view.ctp:19
+#: View/Sales/view.ctp:35
+msgid "Price"
+msgstr "Preço"
+
+#: View/Categories/view.ctp:36
+#: View/Products/view.ctp:24
+#: View/Sales/view.ctp:36
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: View/Categories/view.ctp:37
+#: View/Sales/view.ctp:37
+msgid "Category Id"
+msgstr "Código da categoria"
+
+#: View/Phones/add.ctp:4
+msgid "Add Phone"
+msgstr "Adicionar telefone"
+
+#: View/Phones/add.ctp:16
+#: View/Phones/edit.ctp:17
+#: View/Phones/view.ctp:21
+#: View/Users/add.ctp:21
+#: View/Users/edit.ctp:23
+#: View/Users/index.ctp:51
+#: View/Users/view.ctp:40
+msgid "List Phones"
+msgstr "Lista de telefones"
+
+#: View/Phones/edit.ctp:4
+#: View/Phones/view.ctp:19
+msgid "Edit Phone"
+msgstr "Editar telefone"
+
+#: View/Phones/index.ctp:2
+msgid "Phones"
+msgstr "Telefones"
+
+#: View/Phones/index.ctp:44
+#: View/Phones/view.ctp:22
+#: View/Users/add.ctp:22
+#: View/Users/edit.ctp:24
+#: View/Users/index.ctp:52
+#: View/Users/view.ctp:41;104
+msgid "New Phone"
+msgstr "Novo telefone"
+
+#: View/Phones/view.ctp:2
+msgid "Phone"
+msgstr "Telefone"
+
+#: View/Phones/view.ctp:20
+msgid "Delete Phone"
+msgstr "Deletar telefone"
+
+#: View/Products/add.ctp:4
+msgid "Add Product"
+msgstr "Adicionar produto"
+
+#: View/Products/add.ctp:23
+#: View/Products/edit.ctp:25
+#: View/Products/index.ctp:55
+#: View/Products/view.ctp:45
+#: View/Sales/add.ctp:15
+#: View/Sales/edit.ctp:17
+#: View/Sales/view.ctp:21
+#: View/SalesProducts/add.ctp:19
+#: View/SalesProducts/edit.ctp:20
+#: View/SalesProducts/index.ctp:49
+#: View/SalesProducts/view.ctp:25
+msgid "List Sales"
+msgstr "Lista de Vendas"
+
+#: View/Products/add.ctp:24
+#: View/Products/edit.ctp:26
+#: View/Products/index.ctp:56
+#: View/Products/view.ctp:46;74
+#: View/Sales/index.ctp:42
+#: View/Sales/view.ctp:22
+#: View/SalesProducts/add.ctp:20
+#: View/SalesProducts/edit.ctp:21
+#: View/SalesProducts/index.ctp:50
+#: View/SalesProducts/view.ctp:26
+msgid "New Sale"
+msgstr "Nova venda"
+
+#: View/Products/edit.ctp:4
+#: View/Products/view.ctp:39
+msgid "Edit Product"
+msgstr "Editar produto"
+
+#: View/Products/index.ctp:2
+msgid "Products"
+msgstr "Produtos"
+
+#: View/Products/view.ctp:2
+#: View/SalesProducts/view.ctp:4
+msgid "Product"
+msgstr "Produto"
+
+#: View/Products/view.ctp:40
+msgid "Delete Product"
+msgstr "Deletar produto"
+
+#: View/Products/view.ctp:50
+msgid "Related Sales"
+msgstr "Vendas relacionadas"
+
+#: View/Products/view.ctp:55
+#: View/Sales/view.ctp:9
+msgid "Created"
+msgstr "Criado em"
+
+#: View/Sales/add.ctp:4
+msgid "Add Sale"
+msgstr "Adicionar venda"
+
+#: View/Sales/edit.ctp:4
+#: View/Sales/view.ctp:19
+msgid "Edit Sale"
+msgstr "Editar venda"
+
+#: View/Sales/index.ctp:2
+msgid "Sales"
+msgstr "Vendas"
+
+#: View/Sales/view.ctp:2
+#: View/SalesProducts/view.ctp:9
+msgid "Sale"
+msgstr "Venda"
+
+#: View/Sales/view.ctp:20
+msgid "Delete Sale"
+msgstr "Deletar venda"
+
+#: View/SalesProducts/add.ctp:4
+msgid "Add Sales Product"
+msgstr "Adicionar Venda"
+
+#: View/SalesProducts/add.ctp:16
+#: View/SalesProducts/edit.ctp:17
+#: View/SalesProducts/view.ctp:21
+msgid "List Sales Products"
+msgstr "Lista de Vendas"
+
+#: View/SalesProducts/edit.ctp:4
+#: View/SalesProducts/view.ctp:19
+msgid "Edit Sales Product"
+msgstr "Editar vendas"
+
+#: View/SalesProducts/index.ctp:2
+msgid "Sales Products"
+msgstr "Vendas"
+
+#: View/SalesProducts/index.ctp:46
+#: View/SalesProducts/view.ctp:22
+msgid "New Sales Product"
+msgstr "Nova venda"
+
+#: View/SalesProducts/view.ctp:2
+msgid "Sales Product"
+msgstr "Vendas"
+
+#: View/SalesProducts/view.ctp:20
+msgid "Delete Sales Product"
+msgstr "Deletar vendas"
+
+#: View/Users/add.ctp:4
+msgid "Cadastro de Usuário"
+msgstr ""
+
+#: View/Users/edit.ctp:4
+#: View/Users/view.ctp:34
+msgid "Edit User"
+msgstr "Editar usuário"
+
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr "Usuários"
+
+#: View/Users/view.ctp:14
+msgid "Email"
+msgstr ""
+
+#: View/Users/view.ctp:19
+msgid "Born Date"
+msgstr "Data de nascimento"
+
+#: View/Users/view.ctp:24
+msgid "Password"
+msgstr "Senha"
+
+#: View/Users/view.ctp:35
+msgid "Delete User"
+msgstr "Deletar usuário"
+
+#: View/Users/view.ctp:45
+msgid "Related Addresses"
+msgstr "Endereços relacionados"
+
+#: View/Users/view.ctp:49;84
+msgid "User Id"
+msgstr "Código do usuário"
+
+#: View/Users/view.ctp:80
+msgid "Related Phones"
+msgstr "Telefones relacionados"
+
+#: Model/Address.php:validation for field street;validation for field city;validation for field state
+#: Model/Category.php:validation for field name
+#: Model/Product.php:validation for field name;validation for field description
+#: Model/User.php:validation for field name;validation for field password
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Address.php:validation for field number;validation for field zip_code
+#: Model/Phone.php:validation for field user_id;validation for field number
+#: Model/Product.php:validation for field price;validation for field quantity;validation for field category_id
+#: Model/SalesProduct.php:validation for field product_id;validation for field sale_id
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "email"
+msgstr ""
+
+#: Model/User.php:validation for field born_date
+msgid "date"
+msgstr ""
+
+#: View/Errors/error400.ctp:19
+#: View/Errors/error500.ctp:19
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error400.ctp:21
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View/Errors/error500.ctp:20
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Layouts/default.ctp:17
+#: View/Layouts/error.ctp:17
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/Layouts/default.ctp:18
+msgid "CakePHP %s"
+msgstr ""
+
+#: View/Pages/home.ctp:14
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: View/Pages/home.ctp:16
+msgid "Read the changelog"
+msgstr ""
+
+#: View/Pages/home.ctp:25
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+#: View/Pages/home.ctp:34
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+#: View/Pages/home.ctp:38
+msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+#: View/Pages/home.ctp:47
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: View/Pages/home.ctp:51
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: View/Pages/home.ctp:61
+msgid "The %s is being used for core caching. To change the config edit %s"
+msgstr ""
+
+#: View/Pages/home.ctp:65
+msgid "Your cache is NOT working. Please check the settings in %s"
+msgstr ""
+
+#: View/Pages/home.ctp:75
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: View/Pages/home.ctp:80
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: View/Pages/home.ctp:82
+msgid "Rename %s to %s"
+msgstr ""
+
+#: View/Pages/home.ctp:107
+msgid "CakePHP is able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:111
+msgid "CakePHP is NOT able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:124
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: View/Pages/home.ctp:126
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+#: View/Pages/home.ctp:135
+msgid "DebugKit plugin is present"
+msgstr ""
+
+#: View/Pages/home.ctp:139
+msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
+msgstr ""
+
+#: View/Pages/home.ctp:141
+msgid "You can install it from %s"
+msgstr ""
+
+#: View/Pages/home.ctp:147
+msgid "Editing this Page"
+msgstr ""
+
+#: View/Pages/home.ctp:150
+msgid "To change the content of this page, edit: %s.<br />\nTo change its layout, edit: %s.<br />\nYou can also add some CSS styles for your pages at: %s."
+msgstr ""
+
+#: View/Pages/home.ctp:157
+msgid "Getting Started"
+msgstr ""
+
+#: View/Pages/home.ctp:161
+msgid "New"
+msgstr ""
+
+#: View/Pages/home.ctp:161
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+#: View/Pages/home.ctp:170
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: View/Pages/home.ctp:177
+msgid "Official Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:182
+msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
+msgstr ""
+
+#: View/Pages/home.ctp:186
+msgid "contains various localized validation classes and translations for specific countries"
+msgstr ""
+
+#: View/Pages/home.ctp:191
+msgid "More about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:193
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: View/Pages/home.ctp:196
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: View/Pages/home.ctp:201
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: View/Pages/home.ctp:202
+msgid "CakePHP Documentation"
+msgstr ""
+
+#: View/Pages/home.ctp:203
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: View/Pages/home.ctp:204
+msgid "CakePHP API"
+msgstr ""
+
+#: View/Pages/home.ctp:205
+msgid "Quick API Reference"
+msgstr ""
+
+#: View/Pages/home.ctp:206
+msgid "The Bakery"
+msgstr ""
+
+#: View/Pages/home.ctp:207
+msgid "Everything CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:208
+msgid "CakePHP Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:209
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+
+#: View/Pages/home.ctp:210
+msgid "CakePHP Community Center"
+msgstr ""
+
+#: View/Pages/home.ctp:211
+msgid "Everything related to the CakePHP community in one place"
+msgstr ""
+
+#: View/Pages/home.ctp:212
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: View/Pages/home.ctp:213
+msgid "Community mailing list"
+msgstr ""
+
+#: View/Pages/home.ctp:215
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:216
+msgid "CakePHP Code"
+msgstr ""
+
+#: View/Pages/home.ctp:217
+msgid "Find the CakePHP code on GitHub and contribute to the framework"
+msgstr ""
+
+#: View/Pages/home.ctp:218;219
+msgid "CakePHP Issues"
+msgstr ""
+
+#: View/Pages/home.ctp:220;221
+msgid "CakePHP Roadmaps"
+msgstr ""
+
+#: View/Pages/home.ctp:222
+msgid "Training"
+msgstr ""
+
+#: View/Pages/home.ctp:223
+msgid "Join a live session and get skilled with the framework"
+msgstr ""
+
+#: View/Pages/home.ctp:224
+msgid "CakeFest"
+msgstr ""
+
+#: View/Pages/home.ctp:225
+msgid "Don't miss our annual CakePHP conference"
+msgstr ""
+
+#: View/Pages/home.ctp:226
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: View/Pages/home.ctp:227
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: webroot/test.php:93
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
